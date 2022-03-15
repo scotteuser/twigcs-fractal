@@ -5,6 +5,8 @@ This extends the excellent
 a ruleset for the 
 [Fractal Render component](https://fractal.build/guide/components/including-sub-components.html#providing-context-data-to-sub-components).
 
+# What does this do?
+
 Consider the following Fractal code:
 ```twig
 {% set card_label = 'Hello' %}
@@ -15,3 +17,14 @@ Consider the following Fractal code:
 
 Twigcs by default will consider `card_label` as an unused
 variable because it does not know of Fractal's `render` tag.
+
+# How do you use it?
+
+Add a file `.twig_cs.dist` to your project root and change your
+project to use this ruleset.
+```php
+<?php
+
+return \FriendsOfTwig\Twigcs\Config\Config::create()
+    ->setRuleSet(ScottEuser\FractalTwigcs\Ruleset\Fractal::class);
+```
