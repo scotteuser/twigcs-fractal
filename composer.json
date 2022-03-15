@@ -13,8 +13,9 @@
         "friendsoftwig/twigcs": "^5.1|dev-main"
     },
     "autoload": {
-        "psr-4": {
-            "ScottEuser\\Fractal\\": "src/"
-        }
+        "files": [
+            "src/Rule/FractalUnusedVariable.php",
+            "src/Ruleset/Fractal.php"
+        ]
     }
 }
