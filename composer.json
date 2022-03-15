@@ -1,0 +1,20 @@
+{
+    "name": "scotteuser/twigcs-fractal",
+    "description": "Checkstyle automation for Fractal Twig",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Euser",
+            "email": "scotteuser@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "friendsoftwig/twigcs": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScottEuser\\Fractal\\": "src/"
+        }
+    }
+}
