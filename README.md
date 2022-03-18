@@ -5,6 +5,13 @@ This extends the excellent
 a ruleset for the 
 [Fractal Render component](https://fractal.build/guide/components/including-sub-components.html#providing-context-data-to-sub-components).
 
+# Installation
+
+This is available as a package on packagist: https://packagist.org/packages/scotteuser/twigcs-fractal
+```
+composer require scotteuser/twigcs-fractal
+```
+
 # What does this do?
 
 Consider the following Fractal code:
